@@ -1,6 +1,6 @@
 # Данные (не наши - не коммитим)
-data/raw/*.csv
-data/raw/*.zip
+data/raw/*
+data/raw/*
 !data/raw/.gitkeep
 
 data/processed/*

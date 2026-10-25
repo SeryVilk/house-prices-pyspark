@@ -28,6 +28,9 @@ TRAIN_PATH = PROJECT_ROOT / 'data' / 'raw' / 'train.csv'
 TEST_PATH = PROJECT_ROOT / 'data' / 'raw' / 'test.csv'
 OUTPUT_DIR = PROJECT_ROOT / 'output'
 SUBMISSION_PATH = OUTPUT_DIR / 'submission.csv'
+DATA_RAW_DIR = PROJECT_ROOT / 'data' / 'raw'
+DATA_RAW_DIR.mkdir(parents = True, exist_ok = True)
+OUTPUT_DIR.mkdir(parents = True, exist_ok = True)
 
 RANDOM_STATE = 42
 CV_FOLDS = 5
