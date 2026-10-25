@@ -1,0 +1,43 @@
+# Данные (не наши - не коммитим)
+data/raw/*.csv
+data/raw/*.zip
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# Результаты работы
+output/*
+!output/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.env
+*.egg-info/
+dist/
+build/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+logs/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
